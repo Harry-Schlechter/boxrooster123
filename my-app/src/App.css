@@ -1,0 +1,128 @@
+.App {
+  background-color: black;
+  min-width: 750px;
+}
+.App-logo {
+  height: 20vmin;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.linky {
+    height: 8vmin;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.one {
+  margin-left: 20px;
+}
+
+.announce {
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin-bottom: 30px;
+  height: 8vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head2 {
+  text-decoration: none;
+  color: #800000;
+  text-align: center;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding: 10px 10px; */
+}
+
+.middlephoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gang {
+  min-width: 100px;
+  border-color: #800000;
+  border-style:inset;
+  border-width: 5px;
+}
+
+.footer {
+  background-color: black;
+  min-height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.but {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.About {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 28vh;
+}
+
+.abouthead {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 250px;
+  max-width: 1000px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.para {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 40px;
+  max-width: 1000px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
