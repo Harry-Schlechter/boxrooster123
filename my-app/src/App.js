@@ -35,11 +35,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-           <img src={insta} className="linky" alt="example"/>
+           {/* <img src={insta} className="linky" alt="example"/> */}
         </a>
       </div>
       <div className="one">
-        <img src={mainlogo} className="App-logo" alt="logo" />
+        {/* <img src={mainlogo} className="App-logo" alt="logo" /> */}
       </div>
       <div className="one">
         <a
@@ -48,7 +48,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={tiktok} className="linky" alt="example" />
+          {/* <img src={tiktok} className="linky" alt="example" /> */}
         </a>
         </div>
       </header>
@@ -62,7 +62,7 @@ function App() {
         </a>
       </div>
       <div className="middlephoto">
-        <img src={gang} className="gang" alt="logo"/>
+        {/* <img src={gang} className="gang" alt="logo"/> */}
       </div>
       <div className="footer">
         <a href="mailto:boxrooster@gmail.com">
