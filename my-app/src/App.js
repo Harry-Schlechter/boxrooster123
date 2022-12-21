@@ -1,8 +1,8 @@
 
-import mainlogo from './mainlogo.jpg';
-import gang from './gang.jpg'
-import insta from './insta.png';
-import tiktok from './tiktok.png';
+// import mainlogo from './mainlogo.jpg';
+// import gang from './gang.jpg'
+// import insta from './insta.png';
+// import tiktok from './tiktok.png';
 import './App.css';
 import React from "react";
 // import Dialog from "@material-ui/core/Dialog";
