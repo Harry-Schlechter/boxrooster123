@@ -15,15 +15,15 @@ import React from "react";
 function App() {
   document.body.style.backgroundColor = "black"
 
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
-  }
+  // const handleOpen = () => {
+  //   setOpen(true);
+  // }
 
-  const handleClose = () => {
-    setOpen(false);
-  }
+  // const handleClose = () => {
+  //   setOpen(false);
+  // }
 
   return (
     <div className="App">
@@ -68,7 +68,7 @@ function App() {
         <a href="mailto:boxrooster@gmail.com">
           <button className="but"> Contact & Booking </button>
         </a>
-          <button className="but" onClick={handleOpen}> Subscribe </button>
+          <button className="but" > Subscribe </button>
           {/* <Dialog open = {open} onClose={handleClose}>
             <DialogContent>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScveAO1_E4r8RcGhq8-hpSHzvyAriY5QdKnFHG3kBZpbQZ0Wg/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
