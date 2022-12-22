@@ -1,3 +1,3 @@
-This repositoy is hosted at boxrooster.com 
+# This repositoy is hosted at https://boxrooster.com 
 
-Basic website for local band using react and deployed using netlify
+# Basic website for local band using react and deployed using netlify
