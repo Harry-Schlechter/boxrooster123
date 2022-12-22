@@ -66,7 +66,7 @@ function App() {
           <button className="but" onClick={handleOpen} > Subscribe </button>
           <Dialog open = {open} onClose={handleClose}>
         
-            <iframe title="Subscribe" src="https://docs.google.com/forms/d/e/1FAIpQLScveAO1_E4r8RcGhq8-hpSHzvyAriY5QdKnFHG3kBZpbQZ0Wg/viewform?embedded=true" width="400" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe title="Subscribe" src="https://docs.google.com/forms/d/e/1FAIpQLScveAO1_E4r8RcGhq8-hpSHzvyAriY5QdKnFHG3kBZpbQZ0Wg/viewform?embedded=true" width="350" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             
             
           </Dialog>
