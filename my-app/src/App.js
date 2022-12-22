@@ -1,29 +1,27 @@
 
-// import mainlogo from './mainlogo.jpg';
-// import gang from './gang.jpg'
-// import insta from './insta.png';
-// import tiktok from './tiktok.png';
+import mainlogo from './mainlogo.jpg';
+import gang from './gang.jpg'
+import insta from './insta.png';
+import tiktok from './tiktok.png';
 import './App.css';
 import React from "react";
-// import Dialog from "@material-ui/core/Dialog";
-// import DialogContentText from "@material-ui/core/DialogContentText";
-// import DialogTitle from "@material-ui/core/DialogTitle";
-// import DialogActions from "@material-ui/core/DialogActions";
-// import DialogContent from "@material-ui/core/DialogContent";
-// import Button from "@material-ui/core/Button";
+import Dialog from "@material-ui/core/Dialog";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import Button from "@material-ui/core/Button";
 
 function App() {
   document.body.style.backgroundColor = "black"
 
-  // const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
 
-  // const handleOpen = () => {
-  //   setOpen(true);
-  // }
+  const handleOpen = () => {
+    setOpen(true);
+  };
 
-  // const handleClose = () => {
-  //   setOpen(false);
-  // }
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <div className="App">
@@ -35,11 +33,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-           {/* <img src={insta} className="linky" alt="example"/> */}
+           <img src={insta} className="linky" alt="example"/>
         </a>
       </div>
       <div className="one">
-        {/* <img src={mainlogo} className="App-logo" alt="logo" /> */}
+        <img src={mainlogo} className="App-logo" alt="logo" />
       </div>
       <div className="one">
         <a
@@ -48,7 +46,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <img src={tiktok} className="linky" alt="example" /> */}
+          <img src={tiktok} className="linky" alt="example" />
         </a>
         </div>
       </header>
@@ -62,21 +60,21 @@ function App() {
         </a>
       </div>
       <div className="middlephoto">
-        {/* <img src={gang} className="gang" alt="logo"/> */}
+        <img src={gang} className="gang" alt="logo"/>
       </div>
       <div className="footer">
         <a href="mailto:boxrooster@gmail.com">
           <button className="but"> Contact & Booking </button>
         </a>
-          <button className="but" > Subscribe </button>
-          {/* <Dialog open = {open} onClose={handleClose}>
+          <button className="but" onClick={handleOpen} > Subscribe </button>
+          <Dialog open = {open} onClose={handleClose}>
             <DialogContent>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScveAO1_E4r8RcGhq8-hpSHzvyAriY5QdKnFHG3kBZpbQZ0Wg/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </DialogContent>
             <DialogActions>
               <Button onClick={handleClose}>Close</Button>
             </DialogActions>
-          </Dialog> */}
+          </Dialog>
       </div>
       <div className="About">
         <div>
