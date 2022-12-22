@@ -5,10 +5,7 @@ import insta from './insta.png';
 import tiktok from './tiktok.png';
 import './App.css';
 import React from "react";
-import Dialog from "@material-ui/core/Dialog";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import Button from "@material-ui/core/Button";
+import Dialog from '@mui/material/Dialog';
 
 function App() {
   document.body.style.backgroundColor = "black"
@@ -68,12 +65,10 @@ function App() {
         </a>
           <button className="but" onClick={handleOpen} > Subscribe </button>
           <Dialog open = {open} onClose={handleClose}>
-            <DialogContent>
+        
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScveAO1_E4r8RcGhq8-hpSHzvyAriY5QdKnFHG3kBZpbQZ0Wg/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            </DialogContent>
-            <DialogActions>
-              <Button onClick={handleClose}>Close</Button>
-            </DialogActions>
+            
+            <button onClick={handleClose} >Close</button>  
           </Dialog>
       </div>
       <div className="About">

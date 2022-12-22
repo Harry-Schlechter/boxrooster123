@@ -1,6 +1,6 @@
 .App {
   background-color: black;
-  min-width: 750px;
+  min-width: 100px;
 }
 .App-logo {
   height: 20vmin;
@@ -69,7 +69,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 125px;
+  margin-bottom: 20px;
 }
 
 .but {
@@ -91,7 +91,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 28vh;
 }
 
 .abouthead {
