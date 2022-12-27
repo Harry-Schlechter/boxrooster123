@@ -50,10 +50,10 @@ function App() {
       <div className="announce">
         <a 
           className="head2"
-          href = "mailto:boxrooster@gmail.com"
+          href = "boxrooster.com"
           target = "_blank"
           rel= "noopener noreferrer">
-        <h3>  📣 Contact to see the band this Christmas Eve Eve! 📣</h3>
+        <h3>  📣 Subscibe below to stay up to date! 📣</h3>
         </a>
       </div>
       <div className="middlephoto">
@@ -77,7 +77,16 @@ function App() {
         </div>
         <div>
           <p className="para">
-          Boxrooster is an alternative indie rock trio based out of Long Island, New York. Early origins of the group started off with Shane O’Brien (lead guitar) and Emmett Lally (rhythm guitar). Already having been good friends, the two would jam often in O’Brien’s garage for fun. While they mostly worked on covers of songs, they slowly started to riff off melodies and other lyrics that they had written on their own time. After jamming for a few months, they decided that they wanted to form a real band but lacked a talented drummer to help them complete the group. As time went on O’Brien and Lally didn’t know if they’d ever find their elusive third member, for a band that hadn’t been given a name yet. But sure enough they were contacted by Joe Dimitri, a drummer from New Hyde Park, NY, whose friend had seen Lally’s post about needing a drummer for his band. After talking over text and seeing a few videos of Dimitri’s skillful drumming, Shane, and Emmett enthusiastically accepted Joe into the band. After Shane and Emmett returned from college for break, the trio started rehearsing covers of songs to eventually start playing gigs in the summer. As the spring came along O’Brien and Lally were hanging out one night, playing music and sharing band name ideas, when Shane jokingly came up with the name Boxrooster. And after a bit of back forth when the band brought the name to Joe, they all decided that it was the perfect name for the group. As the summer came and went, Boxrooster played shows from backyards to bars, slowly but surely making themselves known around their hometown of Floral Park, NY. As they’ve recently started to come into their own, the future looks bright for Boxrooster, who are currently working on releasing their self-titled EP “Bobby’s Backyard”, which will be released sometime in 2023. 
+          Boxrooster is an alternative indie rock trio based out of Long Island, New York. The band started with two friends Emmett Lally (lead singer) and Shane O’Brien (lead guitar) jamming in O’Brien’s garage for fun. They evolved from playing covers, to writing their own music, to deciding to start a band. They lacked a talented drummer and began to search for one on their quest to start a band.
+          </p>
+          <p className="para">
+          As their quest continued, they became hopeless that they would ever find their elusive third member. But to their luck, Joe Dimitri from New Hyde Park, NY reached out to Lally and O’Brien through social media. It didn’t take long for Dimitri’s drumming to impress them and he officially joined the band.
+          </p>
+          <p className="para">
+          After Lally and O’Brien returned from college for winter break of 2021, the trio got right to work rehearsing. While they were practicing one night, O’Brien jokingly proposed Boxrooster as the band name and the rest is history. The summer of 2022 was incredibly productive for Boxrooster as they played backyards, bars, and birthday parties making a name for themselves around Floral Park. The future looks bright for Boxrooster as they are currently working on an EP, “Bobby’s Backyard”, set to be realased in 2023. 
+          </p>
+          <p className="para">
+          The band is geared up and ready to go for the summer of 2023. Be sure to contact and book them before time runs out! Boxrooster looks forward to seeing you at one of their next shows.
           </p>
           </div>
       </div>

@@ -58,9 +58,6 @@
 
 .gang {
   min-width: 100px;
-  border-color: #800000;
-  border-style:inset;
-  border-width: 5px;
 }
 
 .footer {
@@ -118,8 +115,8 @@
   margin-right: 40px;
   max-width: 1000px;
   font-family:Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-bottom: 50px;
+  text-align: left;
+  /* margin-bottom: 50px; */
 }
 
 
