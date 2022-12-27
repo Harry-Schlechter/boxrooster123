@@ -50,7 +50,7 @@ function App() {
       <div className="announce">
         <a 
           className="head2"
-          href = "boxrooster.com"
+          href = "https://boxrooster.com"
           target = "_blank"
           rel= "noopener noreferrer">
         <h3>  📣 Subscibe below to stay up to date! 📣</h3>
